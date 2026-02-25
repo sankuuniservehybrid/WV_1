@@ -173,8 +173,8 @@ export default function Destinations() {
               </motion.div>
 
               <motion.div
-                className="absolute left-0 right-0 bottom-full mb-3 bg-white rounded-xl shadow-2xl border border-gray-100 p-4 z-[100] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 pointer-events-none group-hover:pointer-events-auto"
-                initial={{ y: 10 }}
+                className="absolute left-0 right-0 top-full mt-3 bg-white rounded-xl shadow-2xl border border-gray-100 p-4 z-[100] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 pointer-events-none group-hover:pointer-events-auto"
+                initial={{ y: -10 }}
                 whileHover={{ y: 0 }}
               >
                 <p className="text-sm font-semibold text-gray-700 mb-3 flex items-center">
